@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Image Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+
+    <div class="gallery">
+
+        <div class="gallery_small_img">
+            <img src="img/img_snow.jpg" alt="#" onclick="myFunction(this)" >
+            <img src="img/img_nature.jpg" alt="#" onclick="myFunction(this)">
+            <img src="img/img_mountains.jpg" alt="#" onclick="myFunction(this)">
+            <img src="img/img_lights.jpg" alt="#" onclick="myFunction(this)">
+        </div>
+
+        <div class="img_container">
+            <a class="ion-close" onclick="this.parentElement.style.display='none'"></a>
+            <img id="viewingImg" src="img/img_snow.jpg" alt="#">
+        </div>
+
+    </div>
+
+    <script src="js/mygallery.js"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
